@@ -1,0 +1,44 @@
+main{
+    padding-top: 80px;
+}
+
+main > .bg_section{
+    width: 90%;
+    height: 75vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%), url('../../assets/og_bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    margin-inline: auto;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+main > .bg_section > h2{
+    background: none;
+    padding-top: 100px;
+    font-size: 3.7em;
+}
+
+main > .bg_section > p{
+    background: none;
+    font-size: 1em;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 90%;
+}
+
+main > .bg_section > button{
+    margin-top: 15px;
+    border: none;
+    padding: 14px 20px;
+    font-size: 1em;
+    background: #0D80F2;
+    border-radius: 5px;
+}
+
+.news_section{
+    width: 90%;
+    height: 50vh;
+}
