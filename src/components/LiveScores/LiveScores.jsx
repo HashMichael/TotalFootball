@@ -1,9 +1,14 @@
 import React from 'react';
 import './LiveScores.css'
+import Navbar from '../Sub-Components/Navbar/Navbar';
 
 const LiveScores = () => {
   return (
-    <div>LiveScores</div>
+    <>
+      <header>
+        <Navbar />
+      </header>
+    </>
   )
 }
 

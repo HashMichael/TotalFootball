@@ -1,9 +1,14 @@
 import React from 'react'
 import './Clubs.css'
+import Navbar from '../Sub-Components/Navbar/Navbar'
 
 const Clubs = () => {
   return (
-    <div>Clubs</div>
+    <>
+      <header>
+        <Navbar />
+      </header>
+    </>
   )
 }
 
