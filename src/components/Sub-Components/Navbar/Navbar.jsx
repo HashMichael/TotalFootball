@@ -18,11 +18,11 @@ const Navbar = () => {
              Total Football
           </h3>
           <ul>
-            <li><Link className='link'>Home</Link></li>
-            <li><Link className='link'>Leagues</Link></li>
-            <li><Link className='link'>Clubs</Link></li>
-            <li><Link className='link'>Transfer News</Link></li>
-            <li><Link className='link'>Live Scores</Link></li>
+            <li><Link to={'/'} className='link'>Home</Link></li>
+            <li><Link to={'/leagues'} className='link'>Leagues</Link></li>
+            <li><Link to={'/clubs'} className='link'>Clubs</Link></li>
+            <li><Link to={'/transfernews'} className='link'>Transfer News</Link></li>
+            <li><Link to={'/livescores'} className='link'>Live Scores</Link></li>
             <li><input type="text" placeholder='Search'/> <Search color='#333' size={20}/></li>
             <li><div className="dark_mode"><Moon color='#ddd'/></div></li>
             <li><img src={userPic} alt="dp" width={35} height={35}/></li>
