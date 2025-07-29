@@ -1,0 +1,11 @@
+.tfn{
+    width: 220px;
+}
+
+.tfn > img{
+    object-fit: cover;
+}
+
+.tfn > p{
+    width: 200px;
+}
